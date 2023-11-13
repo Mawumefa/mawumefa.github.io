@@ -16,7 +16,7 @@ timezone:
 
 title: Mawumefa # the main title
 
-tagline: Information Security Sentinel # it will display as the sub-title
+tagline: The Information Security Sentinel # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   An blog focusing on Governance, Risk Management and Complaince.
@@ -26,23 +26,23 @@ description: >- # used by seo meta and the atom feed
 url: ""
 
 github:
-  username: github_username # change to your github username
+  username: mawumefa # change to your github username
 
-twitter:
-  username: twitter_username # change to your twitter username
+#twitter:
+ # username: twitter_username # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: mawumefa
+  email: mawumefa.kendeh@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/username # change to your github homepage
+    #- https://twitter.com/username # change to your twitter homepage
+    - https://github.com/mawumefa # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/mawumefakendeh
 
 google_site_verification: # fill in to your verification string
 
@@ -73,7 +73,7 @@ theme_mode: # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: /commons/avatar.png
 
 # boolean type, the global switch for TOC in posts.
 toc: true
