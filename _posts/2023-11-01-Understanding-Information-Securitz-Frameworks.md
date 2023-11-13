@@ -44,6 +44,6 @@ As an example, you might actively monitor your company's payment processing syst
 
 Next we will discuss some examples of security frameworks. 
 
-Thanks for reading, see you in the next post.
+_Thanks for reading, see you in the next post._
 
  
