@@ -44,6 +44,11 @@ As an example, you might actively monitor your company's payment processing syst
 
 Next we will discuss some examples of security frameworks. 
 
-_Thanks for reading, see you in the next post._
+Thanks for reading, see you in the next post.
 
+ *Refrences:*
+ 
+[https://www.techtarget.com/searchsecurity/answer/What-are-the-core-components-of-a-cybersecurity-framework](https://www.techtarget.com/searchsecurity/answer/What-are-the-core-components-of-a-cybersecurity-framework)
+
+[https://www.knowledgehut.com/blog/security/cyber-security-frameworks](https://www.knowledgehut.com/blog/security/cyber-security-frameworks)
  
