@@ -3,7 +3,6 @@ title: Understanding Information Security Frameworks
 date: 2023-11-01 11:33:00 +0800
 categories: [InformationSecurity]
 tags: [information-security,cybersecurity,security]
-pin: true
 math: true
 mermaid: true
 image:

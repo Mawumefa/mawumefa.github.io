@@ -3,7 +3,6 @@ title: Examples of Information Security Frameworks - Part 1
 date: 2023-11-08 11:33:00 +0800
 categories: [InformationSecurity]
 tags: [information-security,cybersecurity,security-frameworks]
-pin: true
 math: true
 mermaid: true
 image:
