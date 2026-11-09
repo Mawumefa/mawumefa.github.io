@@ -22,3 +22,9 @@ package-lock.json
 assets/js/dist
 
 .DS_Store
+start-blog.command
+.start-blog.log
+.start-blog-debug/
+diag-blog.command
+.diag.log
+push-blog.command

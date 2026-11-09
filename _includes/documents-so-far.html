@@ -1,0 +1,31 @@
+{%- comment -%}
+  "Documents created" list: every ISO 27001 series document published up to and including this post.
+  Data: _data/iso_documents.yml. Use in a post: {% include documents-so-far.html %}
+{%- endcomment -%}
+{%- assign cutoff = page.date | date: '%s' | plus: 0 -%}
+{%- capture rows -%}
+{%- for d in site.data.iso_documents -%}
+  {%- assign src = site.posts | where: 'url', d.post | first -%}
+  {%- if src -%}
+    {%- assign dt = src.date | date: '%s' | plus: 0 -%}
+    {%- if dt <= cutoff -%}
+<li><a href="{{ src.url | relative_url }}#{{ d.anchor }}">{{ d.title }}</a></li>
+    {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- endcapture -%}
+{%- assign rows_stripped = rows | strip -%}
+{%- if rows_stripped != '' -%}
+<h2 id="documents-created">Documents created</h2>
+<ol>
+{{ rows }}
+</ol>
+{%- endif -%}
+<script>
+  /* re-align on the linked document once images and embeds above it have loaded */
+  window.addEventListener('load', function () {
+    if (location.hash.indexOf('#doc-') !== 0) return;
+    var el = document.getElementById(location.hash.slice(1));
+    if (el) setTimeout(function () { el.scrollIntoView(); }, 300);
+  });
+</script>
