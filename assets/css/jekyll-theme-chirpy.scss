@@ -35,3 +35,6 @@ h1, h2, h3, h4, h5, h6,
   font-family: $site-serif;
 }
 h1, h2, h3, h4, h5, h6 { font-weight: 600; }
+
+/* ---- Hide the "#" link icons next to headings (custom) ---- */
+h2 .anchor, h3 .anchor, h4 .anchor, h5 .anchor { display: none !important; }
