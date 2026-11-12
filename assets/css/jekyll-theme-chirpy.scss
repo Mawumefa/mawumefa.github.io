@@ -38,3 +38,6 @@ h1, h2, h3, h4, h5, h6 { font-weight: 600; }
 
 /* ---- Hide the "#" link icons next to headings (custom) ---- */
 h2 .anchor, h3 .anchor, h4 .anchor, h5 .anchor { display: none !important; }
+
+/* ---- Keyboard focus outline on scrollable tables (custom, keyboard users only) ---- */
+.table-wrapper:focus-visible { outline: 3px solid #3B7DDD; outline-offset: 2px; border-radius: 4px; }

@@ -1,0 +1,29 @@
+<!-- Accessibility fixes (custom). Nothing here changes how the site looks. -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    /* Give the icon-only buttons a name that screen readers announce. */
+    var labels = { 'sidebar-trigger': 'Menu', 'search-trigger': 'Search', 'back-to-top': 'Back to top' };
+    Object.keys(labels).forEach(function (id) {
+      var el = document.getElementById(id);
+      if (el && !el.getAttribute('aria-label')) el.setAttribute('aria-label', labels[id]);
+    });
+
+    /* Let keyboard users reach and scroll tables that are wider than the screen. */
+    function updateTables() {
+      document.querySelectorAll('.table-wrapper').forEach(function (w, i) {
+        if (w.scrollWidth > w.clientWidth) {
+          w.setAttribute('tabindex', '0');
+          w.setAttribute('role', 'region');
+          var heads = Array.prototype.map.call(w.querySelectorAll('th'), function (th) { return th.textContent.trim(); }).join(', ');
+          w.setAttribute('aria-label', 'Table ' + (i + 1) + (heads ? ': ' + heads : '') + ' (scrolls sideways)');
+        } else {
+          w.removeAttribute('tabindex');
+          w.removeAttribute('role');
+          w.removeAttribute('aria-label');
+        }
+      });
+    }
+    updateTables();
+    window.addEventListener('resize', updateTables);
+  });
+</script>
