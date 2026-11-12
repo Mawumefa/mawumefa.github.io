@@ -35,7 +35,7 @@ Follow along and lift the same approach into your own organisation. Swap in your
 We'll work through the full lifecycle in order:
 
 1. **Project Initiation:** the initial gap analysis, presenting the business case, securing management commitment, standing up the project, understanding context, and defining scope
-2. **Execution:** detailed gap assessment, risk methodology, risk assessment, and the Statement of Applicability
+2. **Planning:** detailed gap assessment, risk methodology, risk assessment, the Statement of Applicability, the risk treatment plan, and security objectives
 3. **Implementation:** policies, procedures, control implementation, and awareness training
 4. **Monitoring and Evaluation:** metrics, internal audit, management review, and corrective action
 5. **Certification and Maintenance:** the Stage 1 documentation and readiness review, the Stage 2 evidence-based implementation audit, remediating any nonconformities they raise, then surveillance audits and recertification to keep the certificate
