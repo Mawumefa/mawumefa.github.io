@@ -1,7 +1,7 @@
 ---
 title: "Let's Implement ISO 27001 from Scratch!"
 description: "A step-by-step ISO 27001 implementation series from a GRC practitioner, for anyone starting their first ISMS project from scratch."
-date: 2026-10-07 10:00:00 -0400
+date: 2026-09-25 10:00:00 -0400
 categories: [ISO27001]
 tags: [iso27001, isms, grc, information-security, introduction]
 math: true
