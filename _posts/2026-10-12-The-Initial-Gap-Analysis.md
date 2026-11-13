@@ -43,17 +43,17 @@ For each requirement it answers one question: is this in place, partly in place,
 
 I have created two templates for MK Consults for your reference to help guide your own work.
 
-**MK Consults Initial Gap Analysis Readiness Summary:** The full report for MK Consults: executive summary, method, results by clause and Annex A section, key gaps, estimated effort, recommendations, and every clause and control rating in the appendices. Use it as a template for your own.
-
-<iframe src="{{ '/assets/docs/MK-Consults_Initial_Gap_Analysis_Readiness_Summary.pdf' | relative_url }}?v=1#navpanes=0&view=FitH" width="100%" height="520" style="border: 1px solid #ccc; border-radius: 6px;" title="MK Consults Initial Gap Analysis Readiness Summary" id="doc-gap-readiness-summary"></iframe>
-
-**Download:** [Word (.docx)]({{ '/assets/docs/MK-Consults_Initial_Gap_Analysis_Readiness_Summary.docx' | relative_url }}?v=1) \| [PDF]({{ '/assets/docs/MK-Consults_Initial_Gap_Analysis_Readiness_Summary.pdf' | relative_url }}?v=1)
-
 **MK Consults Initial Gap Analysis Workbook:** It lists every requirement of Clauses 4 to 10 and all 93 Annex A controls, with the documents needed and the evidence to confirm compliance, a drop-down to record whether each requirement is met, and a summary sheet that totals your results by clause and by Annex A section. Use it at a high level now, and in full for the detailed gap assessment later.
 
 <iframe src="{{ '/assets/docs/MK-Consults_Initial_Gap_Analysis_Workbook.pdf' | relative_url }}?v=1#navpanes=0&view=FitH" width="100%" height="520" style="border: 1px solid #ccc; border-radius: 6px;" title="MK Consults Initial Gap Analysis Workbook" id="doc-gap-workbook"></iframe>
 
 **Download:** [Excel (.xlsx)]({{ '/assets/docs/MK-Consults_Initial_Gap_Analysis_Workbook.xlsx' | relative_url }}?v=1) \| [PDF]({{ '/assets/docs/MK-Consults_Initial_Gap_Analysis_Workbook.pdf' | relative_url }}?v=1)
+
+**MK Consults Initial Gap Analysis Readiness Summary:** The full report for MK Consults: executive summary, method, results by clause and Annex A section, key gaps, estimated effort, recommendations, and every clause and control rating in the appendices. Use it as a template for your own.
+
+<iframe src="{{ '/assets/docs/MK-Consults_Initial_Gap_Analysis_Readiness_Summary.pdf' | relative_url }}?v=1#navpanes=0&view=FitH" width="100%" height="520" style="border: 1px solid #ccc; border-radius: 6px;" title="MK Consults Initial Gap Analysis Readiness Summary" id="doc-gap-readiness-summary"></iframe>
+
+**Download:** [Word (.docx)]({{ '/assets/docs/MK-Consults_Initial_Gap_Analysis_Readiness_Summary.docx' | relative_url }}?v=1) \| [PDF]({{ '/assets/docs/MK-Consults_Initial_Gap_Analysis_Readiness_Summary.pdf' | relative_url }}?v=1)
 
 ## How you gather the evidence
 

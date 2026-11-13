@@ -2,14 +2,6 @@
 # Add one entry per document when a new post publishes it.
 # "post" must be the post's URL. The list at the bottom of each post shows
 # only documents from that post and earlier, so it grows as the series goes on.
-- title: Initial Gap Analysis Readiness Summary
-  anchor: doc-gap-readiness-summary
-  phase: "Phase 1: Project Initiation"
-  post: /posts/The-Initial-Gap-Analysis/
-  description: Where MK Consults stands against ISO/IEC 27001:2022 today, and the effort, people, cost and timeline to certification.
-  files:
-    - { label: Word, file: MK-Consults_Initial_Gap_Analysis_Readiness_Summary.docx, v: 1 }
-    - { label: PDF, file: MK-Consults_Initial_Gap_Analysis_Readiness_Summary.pdf, v: 1 }
 - title: Initial Gap Analysis Workbook
   anchor: doc-gap-workbook
   phase: "Phase 1: Project Initiation"
@@ -18,6 +10,14 @@
   files:
     - { label: Excel, file: MK-Consults_Initial_Gap_Analysis_Workbook.xlsx, v: 1 }
     - { label: PDF, file: MK-Consults_Initial_Gap_Analysis_Workbook.pdf, v: 1 }
+- title: Initial Gap Analysis Readiness Summary
+  anchor: doc-gap-readiness-summary
+  phase: "Phase 1: Project Initiation"
+  post: /posts/The-Initial-Gap-Analysis/
+  description: Where MK Consults stands against ISO/IEC 27001:2022 today, and the effort, people, cost and timeline to certification.
+  files:
+    - { label: Word, file: MK-Consults_Initial_Gap_Analysis_Readiness_Summary.docx, v: 1 }
+    - { label: PDF, file: MK-Consults_Initial_Gap_Analysis_Readiness_Summary.pdf, v: 1 }
 - title: ISO 27001 Business Case
   anchor: doc-business-case
   phase: "Phase 1: Project Initiation"
