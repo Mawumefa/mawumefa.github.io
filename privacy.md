@@ -16,11 +16,11 @@ For each page view it records the page you opened, the site that sent you here (
 
 You can read more in [GoatCounter's privacy policy](https://www.goatcounter.com/help/privacy).
 
-## Google Analytics (only if you click Accept)
+## Google Analytics (only if you click Yes)
 
-**Google Analytics** gives me more detail, such as how long people stay and which posts they read in a row. It only loads if you click **Accept** on the cookie banner. If you click **Decline**, or ignore the banner, it never loads and nothing is sent to Google.
+**Google Analytics** gives me more detail, such as how long people stay and which posts they read in a row. It only loads if you click **Yes** on the cookie banner. If you click **No**, or ignore the banner, it never loads and nothing is sent to Google.
 
-If you accept, Google Analytics:
+If you click Yes, Google Analytics:
 
 - sets two cookies in your browser, `_ga` and `_ga_PVKTQZCRJG`, which last up to two years and let it recognise the same browser from page to page and visit to visit
 - sends Google the pages you view, how you arrived, your device and browser, and your approximate location
@@ -33,7 +33,7 @@ Your choice is saved in your browser so the banner does not keep coming back. Yo
 
 <a href="#" data-cookie-settings>Change my cookie settings</a>
 
-If you switch from Accept to Decline, the Google Analytics cookies are removed from your browser. Clearing your browser's site data also resets your choice, and the banner will ask again.
+If you switch from Yes to No, the Google Analytics cookies are removed from your browser. Clearing your browser's site data also resets your choice, and the banner will ask again.
 
 ## Comments
 

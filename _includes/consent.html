@@ -1,7 +1,7 @@
 {%- comment -%}
   Visitor counting and cookie consent (custom).
   - GoatCounter counts page views without cookies, so it runs for everyone.
-  - Google Analytics sets cookies, so it loads only after the reader clicks Accept.
+  - Google Analytics sets cookies, so it loads only after the reader clicks Yes.
   The reader's choice is kept in their browser and can be changed with the
   "Cookie settings" link in the footer or on the Privacy page.
   Settings: goatcounter_code and analytics_consent.google_analytics_id in _config.yml.
@@ -15,22 +15,20 @@
 
 {%- if ga_id -%}
 <style>
+  /* Slim strip along the bottom edge of the page. */
   #cookie-consent {
-    position: fixed; left: 50%; bottom: 20px; transform: translateX(-50%); z-index: 1100;
-    width: min(720px, calc(100% - 32px));
-    background: var(--card-bg, #fff); color: var(--text-color, #34343c);
-    border: 1px solid var(--main-border-color, #e3e5e8); border-radius: 10px;
-    box-shadow: 0 8px 28px rgba(0, 0, 0, .14);
-    padding: 18px 20px; display: flex; gap: 18px; align-items: center;
-    font-size: 15px; line-height: 1.5;
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 1100;
+    background: var(--sidebar-bg, #f6f8fa); color: var(--text-color, #34343c);
+    border-top: 1px solid var(--main-border-color, #e3e5e8);
+    padding: 9px 20px; display: flex; flex-direction: row; gap: 14px;
+    align-items: center; justify-content: center;
+    font-size: 13.5px; line-height: 1.45;
   }
   #cookie-consent[hidden] { display: none; }
-  #cookie-consent .cc-text { flex: 1; }
-  #cookie-consent .cc-text strong { display: block; font-size: 16px; margin-bottom: 2px; }
-  #cookie-consent .cc-text a { text-decoration: underline; }
+  #cookie-consent .cc-text a { text-decoration: underline; color: inherit; }
   #cookie-consent .cc-buttons { display: flex; gap: 8px; flex-shrink: 0; }
   #cookie-consent button {
-    font: inherit; font-size: 14px; padding: 8px 16px; border-radius: 6px; cursor: pointer;
+    font: inherit; font-size: 13px; padding: 4px 14px; border-radius: 6px; cursor: pointer;
     border: 1px solid var(--main-border-color, #c9ccd1); background: transparent; color: inherit;
   }
   #cookie-consent button.cc-accept {
@@ -38,8 +36,8 @@
   }
   #cookie-consent button:focus-visible { outline: 2px solid #2a6fdb; outline-offset: 2px; }
   @media (max-width: 640px) {
-    #cookie-consent { flex-direction: column; align-items: stretch; bottom: 12px; gap: 12px; }
-    #cookie-consent .cc-buttons button { flex: 1; }
+    #cookie-consent { flex-wrap: wrap; gap: 8px; padding: 10px 14px; }
+    #cookie-consent .cc-text { flex: 1 1 100%; text-align: center; }
   }
 </style>
 <script>
@@ -91,11 +89,10 @@
       box.setAttribute('aria-label', 'Cookie consent');
       box.hidden = true;
       box.innerHTML =
-        '<div class="cc-text"><strong>Can I count your visit?</strong>' +
-        'This blog uses Google Analytics cookies to see how many people visit and which posts they read. ' +
-        'No ads, and nothing is sold. <a href="' + PRIVACY_URL + '">Privacy</a></div>' +
-        '<div class="cc-buttons"><button type="button" class="cc-decline">Decline</button>' +
-        '<button type="button" class="cc-accept">Accept</button></div>';
+        '<div class="cc-text">This blog uses Google Analytics cookies to see which posts people read. ' +
+        '<a href="' + PRIVACY_URL + '">Privacy</a></div>' +
+        '<div class="cc-buttons"><button type="button" class="cc-decline">No</button>' +
+        '<button type="button" class="cc-accept">Yes</button></div>';
       document.body.appendChild(box);
 
       box.querySelector('.cc-accept').addEventListener('click', function () {
