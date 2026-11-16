@@ -50,7 +50,12 @@ google_site_verification: # fill in to your verification string
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id: G-PVKTQZCRJG # Google Analytics 4 measurement ID
+  id: # left empty on purpose: Analytics loads only after the reader accepts cookies (see analytics_consent)
+
+# Custom: cookie banner and visitor counting (_includes/consent.html)
+analytics_consent:
+  google_analytics_id: G-PVKTQZCRJG # loaded only after the reader clicks Accept
+goatcounter_code: mawumefa # cookie-free counter, dashboard at https://mawumefa.goatcounter.com
 
 # Prefer color scheme setting.
 #
